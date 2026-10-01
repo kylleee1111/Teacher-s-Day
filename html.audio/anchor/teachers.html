@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Teacher's Day</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0d9;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page {
+            padding: 100px 20px;
+        }
+
+        h1 {
+            color: #d2691e;
+            font-size: 45px;
+        }
+
+        button {
+            background-color: #d2691e;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a94f0c;
+        }
+
+        #message {
+            display: none;
+        }
+
+        .message-box {
+            background-color: white;
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px gray;
+        }
+
+        /* MAS MALAKING RECTANGLE PICTURE */
+        .message-box img {
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .message-box h2 {
+            color: #d2691e;
+        }
+
+        .message-box p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- FIRST PAGE -->
+    <div class="page" id="firstPage">
+
+        <h1>🌷 Happy Teacher's Day! 🌷</h1>
+
+        <p>To our amazing teacher ❤️</p>
+
+        <button onclick="showMessage()">
+            Click to See Message 💌
+        </button>
+
+    </div>
+
+
+    <!-- SECOND PAGE -->
+    <div class="page" id="message">
+
+        <div class="message-box">
+
+            <img src="c:\Users\dianne\Downloads\21007.jpg" alt="Teacher">
+
+            <h2>💐 A Special Message for You 💐</h2>
+
+            <p>
+                Dear Mam Mari
+                <br><br>
+
+               Thank you for being patient, kind, and understanding with us. Thank you for teaching us not only the lessons from our books, but also the important lessons we need in life.
+
+We truly appreciate all the time, effort, and dedication you give to your students. Your words inspire us to keep learning, to believe in ourselves, and to never give up.
+
+We may not always say it, but we are very grateful to have you as our teacher.
+
+Thank you for everything, Teacher! ❤️
+
+Happy Teacher's Day! 🌷
+                <br><br>
+
+                
+
+                We are very thankful to have you as our teacher.
+                <br><br>
+
+                <strong>Happy Teacher's Day! ❤️</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        function showMessage() {
+            document.getElementById("firstPage").style.display = "none";
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
